@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.food.myfood.ui.onboard.OnboardViewModel" />
+    </data>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.main.MainActivity">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_350sdp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/image_onboard"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_30sdp"
+            android:textColor="@color/secondaryText"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/content_onboard"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:text="@string/label_start"
+            android:background="@drawable/bg_button_submit"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

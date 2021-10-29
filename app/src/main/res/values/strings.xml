@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFood</string>
+    <string name="content_onboard">Hãy tham gia cộng đồng của\n chúng tôi để nấu những\n món ăn ngon hơn!</string>
+    <string name="label_start">Bắt đầu</string>
+    <string name="label_input_account">Vui lòng nhập tài khoản của bạn tại\n đây! </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

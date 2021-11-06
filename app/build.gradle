@@ -65,4 +65,5 @@ dependencies {
     implementation 'com.huawei.hms:ads:3.4.47.302'
     implementation 'com.huawei.hms:ads-lite:13.4.47.302'
     implementation 'com.huawei.hms:ads-identifier:3.4.34.301'
+    implementation 'com.huawei.hms:hwid:6.1.0.302'
 }

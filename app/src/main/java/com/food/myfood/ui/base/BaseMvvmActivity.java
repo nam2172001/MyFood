@@ -21,7 +21,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.food.myfood.BR;
 import com.food.myfood.R;
 
-import javax.inject.Inject;
+//import javax.inject.Inject;
 
 public abstract class BaseMvvmActivity<BINDING extends ViewDataBinding, VM extends BaseViewModel> extends AppCompatActivity {
 

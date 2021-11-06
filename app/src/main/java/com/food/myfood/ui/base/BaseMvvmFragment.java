@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.ViewModelProvider;
 
-import javax.inject.Inject;
+//import javax.inject.Inject;
 
 
 public abstract class BaseMvvmFragment<BINDING extends ViewDataBinding, VM extends BaseViewModel> extends Fragment {

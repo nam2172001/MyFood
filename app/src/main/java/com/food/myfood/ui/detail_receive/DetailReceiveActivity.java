@@ -58,7 +58,6 @@ public class DetailReceiveActivity extends BaseMvvmActivity<ActivityDetailReceiv
         for (int i = 1; i < 4; i++) {
             Recipe recipe = new Recipe();
             recipe.setName("Phô mai" );
-
             recipes.add(recipe);
         }
 

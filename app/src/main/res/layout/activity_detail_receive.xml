@@ -63,16 +63,18 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/viewBackgroundContent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/viewBackgroundContent"
             app:layout_constraintTop_toBottomOf="@id/view"
-            app:layout_constraintBottom_toBottomOf="parent">
+            app:layout_constraintVertical_bias="0.0">
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="@dimen/_10sdp">
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical">
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tvNameFood"

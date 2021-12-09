@@ -63,7 +63,7 @@
             android:id="@+id/tvNameFood"
             android:layout_width="@dimen/_120sdp"
             android:layout_height="wrap_content"
-            android:text="Pancake"
+            android:text="@{item.name}"
             android:textColor="@color/mainTitle"
             android:textStyle="bold"
             android:textSize="@dimen/_12ssp"
@@ -100,7 +100,7 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=">60 phút"
+                android:text="@{item.time}"
                 android:textColor="@color/secondaryText"
                 android:textStyle="bold"
                 android:textSize="@dimen/_10ssp"/>

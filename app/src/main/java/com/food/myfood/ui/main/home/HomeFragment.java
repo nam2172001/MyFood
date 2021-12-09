@@ -1,7 +1,18 @@
 package com.food.myfood.ui.main.home;
 
+import static org.chromium.base.ContextUtils.getApplicationContext;
+
+import android.content.Context;
 import android.content.Intent;
 
+import com.food.myfood.utils.Utils;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.Type;
+import java.util.List;
 import androidx.lifecycle.ViewModel;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -12,8 +23,7 @@ import com.food.myfood.model.Food;
 import com.food.myfood.ui.base.BaseMvvmFragment;
 import com.food.myfood.ui.detail_receive.DetailReceiveActivity;
 import com.food.myfood.utils.GridSpacingItemDecoration;
-
-import java.util.ArrayList;
+;
 
 public class HomeFragment extends BaseMvvmFragment<FragmentHomeBinding, HomeViewModel> implements FoodAdapter.FoodAdapterListener {
     public static final String TAG = "HomeFragment";
@@ -44,24 +54,16 @@ public class HomeFragment extends BaseMvvmFragment<FragmentHomeBinding, HomeView
         getViewDataBinding().rvFood.addItemDecoration(new GridSpacingItemDecoration(2, 1, true));
         getViewDataBinding().rvFood.setItemAnimator(new DefaultItemAnimator());
         getViewDataBinding().rvFood.setNestedScrollingEnabled(false);
-        adapterFood = new FoodAdapter(getFoods(), this);
+        adapterFood = new FoodAdapter(getFoods(), this);// xong roi nhe
         getViewDataBinding().rvFood.setAdapter(adapterFood);
     }
 
-    private ArrayList<Food> getFoods() {
-        ArrayList<Food> foods = new ArrayList<>();
-        for (int i = 1; i < 10; i++) {
-            Food post = new Food();
-            post.setName("name" + i);
 
-            foods.add(post);
-        }
-
-        return foods;
-    }
 
     @Override
     public void onFoodClicked(Food post) {
         startActivity(new Intent(requireActivity(), DetailReceiveActivity.class));
     }
+
+
 }

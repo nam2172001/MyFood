@@ -1,6 +1,7 @@
 package com.food.myfood.ui.base;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,15 @@ import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.food.myfood.model.Food;
+import com.food.myfood.utils.Utils;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
 
 //import javax.inject.Inject;
 
@@ -64,14 +74,27 @@ public abstract class BaseMvvmFragment<BINDING extends ViewDataBinding, VM exten
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         onViewReady();
+
     }
-
-
-
     protected void handleDataBinding() {
         viewDataBinding.setLifecycleOwner(getViewLifecycleOwner());
         // viewDataBinding.setVariable(getBindingVariable(), viewModel);
         viewDataBinding.executePendingBindings();
+    }
+
+
+     protected ArrayList<Food> getFoods() {
+        String jsonFileString = Utils.getJsonFromAssets( getActivity(),"db.json");
+        Gson gson = new Gson();
+        Type listUserType = new TypeToken<List<Food>>() { }.getType();
+        ArrayList<Food> foods = gson.fromJson(jsonFileString, listUserType);
+//        for (int i = 0; i < foods.size(); i++) {
+//            Food post = new Food();
+//            post.setName("name" + i);
+//            foods.add(post);
+//        }
+
+        return foods;
     }
 
 

@@ -51,21 +51,9 @@ public class ProfileFragment extends BaseMvvmFragment<FragmentProfileBinding, Pr
         getViewDataBinding().rvFood.setAdapter(adapterFood);
     }
 
-    private ArrayList<Food> getFoods() {
-        ArrayList<Food> foods = new ArrayList<>();
-        for (int i = 1; i < 10; i++) {
-            Food post = new Food();
-
-            foods.add(post);
-        }
-
-        return foods;
-    }
-
     @Override
     public void onFoodClicked(Food post) {
         startActivity(new Intent(requireActivity(), DetailReceiveActivity.class));
     }
-
 
 }

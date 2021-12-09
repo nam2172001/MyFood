@@ -1,0 +1,106 @@
+[
+	{
+		"id" : "F01",
+		"name" : "kem",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : false,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : false,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F01",
+		"name" : "Pan Cake",
+		"image" : "./res/drawable/anh1.png",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	}
+]

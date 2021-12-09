@@ -54,7 +54,7 @@ public class HomeFragment extends BaseMvvmFragment<FragmentHomeBinding, HomeView
         getViewDataBinding().rvFood.addItemDecoration(new GridSpacingItemDecoration(2, 1, true));
         getViewDataBinding().rvFood.setItemAnimator(new DefaultItemAnimator());
         getViewDataBinding().rvFood.setNestedScrollingEnabled(false);
-        adapterFood = new FoodAdapter(getFoods(), this);// xong roi nhe
+        adapterFood = new FoodAdapter(getFoods(), this);
         getViewDataBinding().rvFood.setAdapter(adapterFood);
     }
 

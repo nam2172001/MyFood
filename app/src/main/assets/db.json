@@ -1,8 +1,9 @@
 [
 	{
 		"id" : "F01",
-		"name" : "kem",
-		"image" : "./res/drawable/anh1.png",
+		"name" : "Hamburger",
+		"classify": "Đồ ăn",
+		"image" : "image_food",
 		"isFavorite" : false,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -13,11 +14,12 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"id" : "F02",
+		"name" : "Capuchino",
+		"classify": "Đồ uống",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : false,
-		"time" : "30 phút",
+		"time" : "20 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
 		"material " : [
 			"Gà",
@@ -28,7 +30,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -41,7 +44,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -54,7 +58,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -67,7 +72,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -80,7 +86,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
@@ -93,7 +100,8 @@
 	{
 		"id" : "F01",
 		"name" : "Pan Cake",
-		"image" : "./res/drawable/anh1.png",
+		"classify": "Đồ ăn",
+		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",

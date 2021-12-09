@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Food implements Serializable {
     String image;
+    String classify;
     Boolean isFavorite = false;
     String name;
     String time;
@@ -38,5 +39,13 @@ public class Food implements Serializable {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getClassify() {
+        return classify;
+    }
+
+    public void setClassify(String classif) {
+        this.classify = classify;
     }
 }

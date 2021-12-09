@@ -27,7 +27,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/image_food"/>
+                android:src="@drawable/image_food" />
+<!--                app:srcCompat="@drawable/image_food"-->
+
 
             <View
                 android:id="@+id/backgroundImage"
@@ -85,7 +87,7 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Food"
+                android:text="@{item.classify}"
                 android:textColor="@color/secondaryText"
                 android:textStyle="bold"
                 android:textSize="@dimen/_10ssp"/>

@@ -24,7 +24,7 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Như Công"
+            android:text="Xin chào bạn!"
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="@dimen/_14ssp"

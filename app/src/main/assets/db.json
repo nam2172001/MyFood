@@ -1,17 +1,28 @@
 [
 	{
-		"id" : "F01",
-		"name" : "Hamburger",
+		"id": "F01",
+		"name": "Hamburger",
 		"classify": "Đồ ăn",
-		"image" : "image_food",
-		"isFavorite" : false,
-		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"image": "image_food",
+		"isFavorite": false,
+		"time": "30 phút",
+		"description": "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt",
+			},
+			{
+				"Tỏi",
+			},
+			{
+				"Phô Mai",
+			},
+			
+		]
+		
 	},
 	{
 		"id" : "F02",
@@ -21,11 +32,20 @@
 		"isFavorite" : false,
 		"time" : "20 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F03",
@@ -35,11 +55,20 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F04",
@@ -49,11 +78,20 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F05",
@@ -63,11 +101,20 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F06",
@@ -77,11 +124,20 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F07",
@@ -91,11 +147,20 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	},
 	{
 		"id" : "F08",
@@ -105,10 +170,19 @@
 		"isFavorite" : true,
 		"time" : "30 phút",
 		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
+		"material ": [
+			{
+				"Gà"
+			},
+			{
+				"Ớt"
+			},
+			{
+				"Tỏi"
+			},
+			{
+				"Phô Mai"
+			}
+		]
 	}
 ]

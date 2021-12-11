@@ -28,8 +28,8 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
+		"id" : "F03",
+		"name" : "Gà rán",
 		"classify": "Đồ ăn",
 		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
@@ -42,8 +42,8 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
+		"id" : "F04",
+		"name" : "Sườn xào chua ngọt",
 		"classify": "Đồ ăn",
 		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
@@ -56,8 +56,22 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
+		"id" : "F05",
+		"name" : "Trà sữa kiwi",
+		"classify": "Đồ uống",
+		"image" : "@drawable/capuchino",
+		"isFavorite" : true,
+		"time" : "30 phút",
+		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"material " : [
+			"Gà",
+			"Ớt",
+			"Tỏi",
+			"Phô Mai"]
+	},
+	{
+		"id" : "F06",
+		"name" : "Mực xào ",
 		"classify": "Đồ ăn",
 		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
@@ -70,8 +84,8 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
+		"id" : "F07",
+		"name" : "Cháo tim",
 		"classify": "Đồ ăn",
 		"image" : "@drawable/capuchino",
 		"isFavorite" : true,
@@ -84,22 +98,8 @@
 			"Phô Mai"]
 	},
 	{
-		"id" : "F01",
-		"name" : "Pan Cake",
-		"classify": "Đồ ăn",
-		"image" : "@drawable/capuchino",
-		"isFavorite" : true,
-		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
-		"material " : [
-			"Gà",
-			"Ớt",
-			"Tỏi",
-			"Phô Mai"]
-	},
-	{
-		"id" : "F01",
-		"name" : "Pan Cake",
+		"id" : "F08",
+		"name" : "Cháo gà",
 		"classify": "Đồ ăn",
 		"image" : "@drawable/capuchino",
 		"isFavorite" : true,

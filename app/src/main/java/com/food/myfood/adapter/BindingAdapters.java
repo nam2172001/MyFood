@@ -45,4 +45,12 @@ public class BindingAdapters {
         if (isBold) view.setImageResource(R.drawable.ic_checked_circle);
         else view.setImageResource(R.drawable.ic_uncheck_circle);
     }
+
+    @BindingAdapter("setImageFromLocalJson")
+    public static void setImageFromLocalJson(AppCompatImageView view, String fileName) {
+    try {
+        int resID = view.getContext().getResources().getIdentifier(fileName, "drawable",  view.getContext().getPackageName());
+        view.setImageResource(resID);
+    }catch (Exception ex){}
+    }
 }

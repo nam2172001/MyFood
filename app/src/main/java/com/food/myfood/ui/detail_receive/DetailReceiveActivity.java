@@ -1,8 +1,11 @@
 package com.food.myfood.ui.detail_receive;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
+import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -23,7 +26,7 @@ import java.util.ArrayList;
 
 public class DetailReceiveActivity extends BaseMvvmActivity<ActivityDetailReceiveBinding, DetailReceiveViewModel> {
     private RecipeAdapter adapterRecipe;
-
+    private Food food = new Food();
     @Override
     protected int getLayoutId() {
         return R.layout.activity_detail_receive;
@@ -36,6 +39,11 @@ public class DetailReceiveActivity extends BaseMvvmActivity<ActivityDetailReceiv
 
     @Override
     public void onViewReady() {
+        Intent intent = this.getIntent();
+        Bundle bundle = intent.getExtras();
+        food = (Food) bundle.getSerializable("data");
+        getViewModel().setFood(food);
+
         setTransParentColor();
         setupRecyclerview();
 
@@ -49,19 +57,8 @@ public class DetailReceiveActivity extends BaseMvvmActivity<ActivityDetailReceiv
         getViewDataBinding().rvRecipe.addItemDecoration(new GridSpacingItemDecoration(1, 1, true));
         getViewDataBinding().rvRecipe.setItemAnimator(new DefaultItemAnimator());
         getViewDataBinding().rvRecipe.setNestedScrollingEnabled(false);
-        adapterRecipe = new RecipeAdapter(getRecipes());
+        adapterRecipe = new RecipeAdapter(food.getMaterial());
         getViewDataBinding().rvRecipe.setAdapter(adapterRecipe);
-    }
-
-    private ArrayList<Recipe> getRecipes() {
-        ArrayList<Recipe> recipes = new ArrayList<>();
-        for (int i = 1; i < 4; i++) {
-            Recipe recipe = new Recipe();
-            recipe.setName("Phô mai" );
-            recipes.add(recipe);
-        }
-
-        return recipes;
     }
 
     private void setTransParentColor(){

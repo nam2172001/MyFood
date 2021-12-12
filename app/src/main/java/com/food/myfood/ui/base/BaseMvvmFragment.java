@@ -18,8 +18,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.food.myfood.model.Food;
 import com.food.myfood.utils.Utils;
+import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -90,7 +90,6 @@ public abstract class BaseMvvmFragment<BINDING extends ViewDataBinding, VM exten
         ArrayList<Food> foods = gson.fromJson(jsonFileString, listUserType);
         return foods;
     }
-
 
     public abstract void onViewReady();
 

@@ -1,18 +1,9 @@
 package com.food.myfood.ui.main.home;
 
-import static org.chromium.base.ContextUtils.getApplicationContext;
 
-import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 
-import com.food.myfood.utils.Utils;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Type;
-import java.util.List;
 import androidx.lifecycle.ViewModel;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -58,11 +49,13 @@ public class HomeFragment extends BaseMvvmFragment<FragmentHomeBinding, HomeView
         getViewDataBinding().rvFood.setAdapter(adapterFood);
     }
 
-
-
     @Override
     public void onFoodClicked(Food post) {
-        startActivity(new Intent(requireActivity(), DetailReceiveActivity.class));
+        Intent intent = new Intent(requireActivity(), DetailReceiveActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("data", post);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
 
 

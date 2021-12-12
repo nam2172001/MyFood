@@ -17,7 +17,7 @@
             android:id="@+id/imageFood"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_250sdp"
-            android:background="@drawable/image_food"
+            app:setImageFromLocalJson="@{viewModel.foodResponse.image}"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
                     android:paddingStart="@dimen/_20sdp"
                     android:paddingTop="@dimen/_8sdp"
                     android:paddingBottom="@dimen/_8sdp"
-                    android:text="Cơm gà nướng"
+                    android:text="@{viewModel.foodResponse.name}"
                     android:textColor="@color/mainTitle"
                     android:textSize="@dimen/_14ssp"
                     android:textStyle="bold" />
@@ -98,7 +98,7 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Đồ ăn"
+                        android:text="@{viewModel.foodResponse.classify}"
                         android:textColor="@color/secondaryText"
                         android:textSize="@dimen/_12ssp"
                         android:textStyle="bold" />
@@ -113,7 +113,7 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="60 phút"
+                        android:text="@{viewModel.foodResponse.time}"
                         android:textColor="@color/secondaryText"
                         android:textSize="@dimen/_12ssp"
                         android:textStyle="bold" />
@@ -189,7 +189,7 @@
                     android:paddingTop="@dimen/_10sdp"
                     android:paddingEnd="@dimen/_20sdp"
                     android:paddingBottom="@dimen/_10sdp"
-                    android:text="Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về."
+                    android:text="@{viewModel.foodResponse.description}"
                     android:textColor="@color/secondaryText"
                     android:textSize="@dimen/_12ssp"
                     android:textStyle="bold" />
@@ -228,7 +228,7 @@
                     android:paddingTop="@dimen/_10sdp"
                     android:paddingEnd="@dimen/_20sdp"
                     android:paddingBottom="@dimen/_10sdp"
-                    android:text="Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về."
+                    android:text="@{viewModel.foodResponse.description}"
                     android:textColor="@color/secondaryText"
                     android:textSize="@dimen/_12ssp"
                     android:textStyle="bold" />

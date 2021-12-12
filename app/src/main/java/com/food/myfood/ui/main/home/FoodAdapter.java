@@ -51,12 +51,12 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.MyViewHolder> 
         holder.binding.setItem(postList.get(position));
         holder.binding.getRoot().setOnClickListener(v -> {
             if (listener != null) {
-                listener.onFoodClicked(postList.get(position));
+                listener.onFoodClicked(postList.get(holder.getAdapterPosition()));
             }
         });
         holder.binding.backgroundImage.setOnClickListener(view -> {
-            postList.get(position).setFavorite(!postList.get(position).getFavorite());
-            notifyItemChanged(position);
+            postList.get(holder.getAdapterPosition()).setIsFavorite(!postList.get(position).getIsFavorite());
+            notifyItemChanged(holder.getAdapterPosition());
         });
     }
 

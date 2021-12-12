@@ -2,6 +2,7 @@ package com.food.myfood.ui.main.profile;
 
 
 import android.content.Intent;
+import android.os.Bundle;
 
 import androidx.lifecycle.ViewModel;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -53,7 +54,11 @@ public class ProfileFragment extends BaseMvvmFragment<FragmentProfileBinding, Pr
 
     @Override
     public void onFoodClicked(Food post) {
-        startActivity(new Intent(requireActivity(), DetailReceiveActivity.class));
+        Intent intent = new Intent(requireActivity(), DetailReceiveActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("data", post);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
 
 }

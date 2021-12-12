@@ -1,28 +1,44 @@
 package com.food.myfood.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
+import java.util.List;
 
 public class Food implements Serializable {
-    String image;
-    String classify;
-    Boolean isFavorite = false;
-    String name;
-    String time;
 
-    public String getImage() {
-        return image;
+    @SerializedName("id")
+    @Expose
+    private String id;
+    @SerializedName("name")
+    @Expose
+    private String name;
+    @SerializedName("classify")
+    @Expose
+    private String classify;
+    @SerializedName("image")
+    @Expose
+    private String image;
+    @SerializedName("isFavorite")
+    @Expose
+    private Boolean isFavorite;
+    @SerializedName("time")
+    @Expose
+    private String time;
+    @SerializedName("description")
+    @Expose
+    private String description;
+    @SerializedName("material ")
+    @Expose
+    private List<Recipe> material = null;
+
+    public String getId() {
+        return id;
     }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
-
-    public Boolean getFavorite() {
-        return isFavorite;
-    }
-
-    public void setFavorite(Boolean favorite) {
-        isFavorite = favorite;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -33,6 +49,30 @@ public class Food implements Serializable {
         this.name = name;
     }
 
+    public String getClassify() {
+        return classify;
+    }
+
+    public void setClassify(String classify) {
+        this.classify = classify;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public Boolean getIsFavorite() {
+        return isFavorite;
+    }
+
+    public void setIsFavorite(Boolean isFavorite) {
+        this.isFavorite = isFavorite;
+    }
+
     public String getTime() {
         return time;
     }
@@ -41,11 +81,19 @@ public class Food implements Serializable {
         this.time = time;
     }
 
-    public String getClassify() {
-        return classify;
+    public String getDescription() {
+        return description;
     }
 
-    public void setClassify(String classif) {
-        this.classify = classify;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public List<Recipe> getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(List<Recipe> material) {
+        this.material = material;
     }
 }

@@ -88,7 +88,8 @@ public abstract class BaseMvvmFragment<BINDING extends ViewDataBinding, VM exten
         Gson gson = new Gson();
         Type listUserType = new TypeToken<List<Food>>() { }.getType();
         ArrayList<Food> foods = gson.fromJson(jsonFileString, listUserType);
-        return foods;
+        foods.sort(foods.getName());
+         return foods;
     }
 
     public abstract void onViewReady();

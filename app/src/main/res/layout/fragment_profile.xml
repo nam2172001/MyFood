@@ -20,6 +20,36 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_40sdp"
         android:scaleType="centerCrop"/>
+        <EditText
+            android:id="@+id/seach"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/secondaryText"
+            android:drawablePadding="@dimen/_8sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_search"
+            android:hint="Tìm kiếm"
+            android:paddingStart="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_search"/>
+        <Button
+            android:id="@+id/btnseach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tìm kiếm" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_6sdp"
+            android:background="@color/background_Search"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_30sdp"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -38,6 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8sdp"
             android:layout_marginStart="@dimen/_8sdp"/>
+
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </layout>

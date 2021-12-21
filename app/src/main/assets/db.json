@@ -3,186 +3,287 @@
 		"id": "F01",
 		"name": "Hamburger",
 		"classify": "Đồ ăn",
-		"image" : "capuchino",
+		"image" : "image_food",
 		"isFavorite": false,
 		"time": "30 phút",
-		"description": "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description": "Trước khi tìm hiểu về nguyên liệu làm bánh gồm những gì, mọi người nên dành thời gian tìm hiểu đôi chút về món bánh này. Đây là một trong những loại đồ ăn nhanh, có nguồn gốc từ Mỹ. Thành phần chính của bánh luôn có bánh mỳ, thịt bò và một chút rau sống kẹp cùng. Có thể nói, hàm lượng calo có trong mỗi chiếc bánh Hamburger thường khá cao, nó có thể cung cấp năng lượng cho mọi người cả sáng. ",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Bánh mì tròn"
 			},
 			{
-				"name" :"Ớt"
+				"name" :"Thịt bò khoảng 300g đã được xay nhuyễn"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Bột chiên xù"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Pho mát"
+			},
+			{
+				"name": "Hành tây"
+			},
+			{
+				"name": "Cà chua"
+			},
+			{
+				"name": "Trứng gà"
+			},
+			{
+				"name": "Rau xà lách"
+			},
+			{
+				"name": "Tương cà, tương ớt, gia vị"
 			}
 			
-		]
+		],
+		"processing" : "Bước 1:\n\n- Cho thịt bò, bột chiên xù, trứng gà vào bát to, trộn đều. Thêm 1 thìa nước mắm, 2 thìa đường vào trộn tiếp, ướp trong 30 phút cho hỗn hợp thịt, trứng, bột ngấm đều gia vị. \n Bước 2: \n - Hành tây bóc vỏ, rửa sạch, thái miếng nhỏ vừa. Cà chua rửa sạch, thái khoanh nhỏ vừa ăn. Xà lách bỏ cuống, rửa sạch, tách từng lá một.\n\n- Đun nóng dầu ăn, cho hành tây vào xào tái rồi đổ ra để ráo dầu. Hành tây sau khi xào sẽ bớt cay nồng, dễ ăn hơn.\n\n- Nặn hỗn hợp thịt bò thành bốn phần tròn, dẹt, có đường kính bằng với đường kính bánh mì đã chuẩn bị. Cho thịt bò vào chảo dầu nóng, chiên lửa nhỏ cho tới khi thịt chín, bên ngoài xém vàng là được.\n Bước 3: \n - Cắt đôi bánh mì theo chiều ngang, đặt lá xà lách rồi đến một lát cà chua, hành tây, phô mai lên trên một nửa chiếc bánh. Đặt nhân thịt bò vào giữa, xếp các loại rau, phô mai như lúc nãy lên trên miếng thịt bò, cuối cùng đặt nửa bánh mì còn lại lên.\n\n- Tiếp tục làm như vậy với phần nguyên liệu còn lại."
+
+
 		
 	},
 	{
-		"id" : "F02",
-		"name" : "Capuchino",
+		"id": "F02",
+		"name": "Capuchino",
 		"classify": "Đồ uống",
-		"image" : "capuchino",
-		"isFavorite" : false,
-		"time" : "20 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"image": "capuchino",
+		"isFavorite": false,
+		"time": "20 phút",
+		"description": ".Cappuccino (hay Cappuchino, đọc là ca-pu-chi-nô) là tên gọi một loại thức uống cà phê nóng có nguồn gốc từ Ý, được các Barista pha chế từ 3 thành phần nguyên liệu đều nhau là cà phê espresso pha với một lượng nước gấp đôi, sữa nóng và sữa sủi bọt; rồi rải lên trên bề mặt một ít bột cacao hay bột quế để hoàn thiện hương vị; đây được xem là bước cực kỳ quan trọng giúp tạo hình ấn tượng cho tách cappuccino (hình trái tim, lá dương sỉ, đám mây, bướm, cô gái xinh đẹp,…) thông qua việc dùng khuôn hay thìa khuấy điệu nghệ trên bề mặt bọt sữa cùng lúc với việc rắc bột.",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "30ml cà phê Espresso"
 			},
 			{
-				"name": "Ớt"
+				"name": "100ml sữa tươi ít béo, không đường"
 			},
 			{
-				"name": "Tỏi"
+				"name": "2 thìa cà phê đường trắng"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Bột cacao hay bột quế"
+			},
+			{
+				"name": "1 tách sứ có dung tích khoảng 200ml"
 			}
-		]
+		],
+		"processing": "Bước 1:\n Cho sữa tươi, đường vào ca đựng sữa rồi đánh nóng sữa và tạo bọt sữa mịn, dày. \n Bước 2: \nLàm nóng tách sứ bằng lò vi sóng hoặc để vào âu nước sôi \n Bước 3: \n Rót cà phê vào cốc rồi chế bọt sữa lên trên. Lưu ý nên đổ sữa từ từ, đều tay vào chính giữa cốc cho tới khi bọt sữa trắng nổi lên thì bắt đầu lắc sữa để tạo hình. Ngoài ra, các Barista cũng có thể dùng kết hợp tăm nhỏ để tạo những hình phức tạp và cầu kỳ hơn. \n Bước 4 \n Rắc thêm bột cacao hay bột quế lên trên để hoàn thiện hương vị. Một tách cà phê Cappuccino chuẩn phải mang lại cho thực khách vị cà phê trầm và nhẹ cùng hương thơm của kem hòa lẫn với vị béo béo của sữa."
 	},
 	{
 		"id" : "F03",
 		"name" : "Gà rán",
 		"classify": "Đồ ăn",
-		"image" : "capuchino",
+		"image" : "canhga",
 		"isFavorite" : true,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Cách làm cánh gà chiên giòn thơm nức mũi, vị đậm đà, chấm cùng tương ớt hoặc tương cà đều ngon hết sẩy. Bạn cũng có thể thay cánh gà bằng đùi gà nhưng cánh gà mỏng nên tẩm bột hay chiên đều dễ dàng, ăn cũng ngon trong khi đùi gà lại thích hợp để làm gà rán KFC hơn.",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "4 cái cánh gà"
 			},
 			{
-				"name": "Ớt"
+				"name": "1 gói bột chiên giòn Aji Quick"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Muối hạt"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Rượu gừng để sơ chế (nếu có)"
+			},
+			{
+				"name": "Hạt tiêu"
+			},
+			{
+				"name": "Nước mắm"
+			},
+			{
+				"name": "Bột ngọt"
 			}
-		]
+		],
+		"processing": "Bước 1:\n Cánh gà mua về nhặt hết phần lông tơ, lỗ chân lông đen còn sót lại, rửa qua. Sau đó bóp cùng với muối hạt và rượu gừng (hoặc rượu trắng + gừng băm nhuyễn) trong khoảng 5 phút. Đây là bước khử sống thịt gà, có tác dụng vừa làm sạch vừa khử mùi hôi của gà. \n\nSau khi bóp muối + rượu, rửa cánh gà thật sạch rồi để ráo. Có thể dùng khăn mềm lau khô sau đó chặt nhỏ để chiên nhanh và dễ hơn. Nếu như muốn giữ nguyên cánh để chiên, bạn nên khứa vài đường nhỏ ở phần cánh trên để nhanh chín.\n\nTiếp đến ướp cánh gà với:\n\n2 thìa cà phê nước mắm\n1/2 thìa bột canh\n1/2 thìa hạt tiêu (nếu có thể ăn được cay).\nTrộn đều và để gà thấm gia vị trong ít nhất 20 phút. \n Sau 20 phút ướp, bạn tiến hành phủ bột chiên giòn. Lưu ý trước khi phủ bột, nên chắt bỏ hết phần nước đọng lại trong tô. \n\nPhủ 1 lớp bột lên bề mặt cánh gà, sau đó xóc xóc tô rồi phủ thêm 1 lớp bột nữa. Cứ tiếp tục như thế để đảm bảo cánh gà được phủ đều bột. Một mẹo nhỏ là bạn có thể cho cánh gà vào tô hoặc hộp có nắp, phủ bột lên rồi xóc đều là được. \n Để cánh gà thấm bột ít nhất trong 5-10 phút rồi mới mang đi chiên. \n Bước 2: \n Đun nóng 1 lượng lớn dầu ăn trong một chiếc chảo sâu lòng, lưu ý để làm cánh gà chiên giòn rụm thì cần phải chiên ngập dầu.\n\nKhi thấy dầu sôi lăn tăn dưới đáy chảo thì cho cánh gà vào chiên. Quá trình chiên nên lật để cánh gà được chín đều các mặt.\n\nChiên đến khi thấy cánh gà vàng ruộm thì vớt ra, để trên giấy thấm dầu, sau đó xếp ra đĩa, ăn lúc nóng chấm với tương cà hoặc tương ớt.\n\n"
 	},
 	{
 		"id" : "F04",
-		"name" : "Sườn xào chua ngọt",
+		"name" : "Canh chua sườn",
 		"classify": "Đồ ăn",
-		"image" : "capuchino",
+		"image" : "suon",
 		"isFavorite" : true,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Cũng là món canh chua nhưng thêm chút biến tấu cho hương vị lạ và hấp dẫn hơn. Vị chua cay từ cà chua và gói Gia vị nêm sẵn Lẩu Thái đậm đà, quyện cùng những miếng sườn chín mềm và rau muống, rau bắp cải giòn giòn. Một lựa chọn tuyệt vời cho những ai thích ăn canh chua cùng cơm nóng!",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Sườn non: 200g"
 			},
 			{
-				"name": "Ớt"
+				"name": "Cà chua: 2 quả"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Rau muống cọng: 200g"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Bắp cải trắng: 100g"
+			},
+			{
+				"name": "Hành tỏi băm: 2M"
+			},
+			{
+				"name": "Tỏi phi dầu: 1M"
+			},
+			{
+				"name": "Ngò gai, ngò om"
+			},
+			{
+				"name": "ĂN KÈM: Cơm trắng"
+			},
+			{
+				"name": "Gia vị: Đường, nước mắm, dầu ăn"
 			}
-		]
+
+		],
+		"processing" : "Bước 1: \n Sườn non chặt khúc vừa ăn, ướp với 1M hành tỏi băm, 1m Aji-Quick® Gia vị nêm sẵn Lẩu Thái, 1/2m hạt nêm Aji-ngon®, để thấm 15 phút.\nCà chua cắt múi cau. Rau muống cọng cắt khúc 3cm. Bắp cải cắt miếng vuông. Ngò gai, ngò om cắt khúc 1cm. \n Bước 2: \n Phi thơm 1M hành tỏi băm với 2M dầu ăn, cho 1/2 lượng cà chua và sườn non vào xào săn, thêm 1.5l nước vào, đun sôi 20 phút, nấu cho sườn chín mềm, rồi lần lượt cho cà chua còn lại, bắp cải trắng , nêm phần còn lại của gói Aji-Quick® Gia vị nêm sẵn Lẩu Thái, thêm rau muống vào nấu sôi cho rau vừa chín tới, cuối cùng cho rau om, ngò gai, 1M dầu phi tỏi vào. Tắt lửa."
 	},
 	{
 		"id" : "F05",
 		"name" : "Trà sữa kiwi",
 		"classify": "Đồ uống",
-		"image" : "capuchino",
+		"image" : "kiwi",
 		"isFavorite" : true,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Trà sữa dường như đã trở thành thức uống yêu thích của rất nhiều người bởi hương vị ngọt ngào và mát lạnh mà nó mang lại. Hôm nay, bạn hãy cùng vào bếp với My Food để khám phá thêm cách làm món trà sữa kiwi mát lạnh nhé!",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Kiwi 3 trái"
 			},
 			{
-				"name": "Ớt"
+				"name": "Trân châu 120 gr"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Sữa tươi 60 ml"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Trà xanh 60 ml"
+			},
+			{
+				"name": "Sữa đặc 60 ml"
+			},
+			{
+				"name": "Đá viên 240 gr"
+			},
+			{
+				"name": "Nước lọc 960 ml"
 			}
-		]
+		],
+		"processing": "Bước 1: \n Đem kiwi rửa sạch với nước để loại bỏ bụi bẩn, bỏ vỏ và cắt lát mỏng.\n\nĐể loại bỏ phần vỏ kiwi, bạn dùng dao cắt hai đầu của quả. Tiếp đó, bạn dùng muỗng đặt vào giữa phần vỏ và cùi, lưu ý là bạn phải đặt sát vỏ. Sau đó bạn xoay muỗng xung quanh để tách phần vỏ ra khỏi phần cùi.\n\nTiếp đến, bạn cho vào nồi 960ml nước lọc, bắc lên bếp đun sôi khoảng 3 - 5 phút. Cho tiếp vào trong nồi 120gr trân châu khuấy đều và đun cho đến khi trân châu mềm hẳn và nổi lên mặt nước thì vớt ra để ráo và sửa sạch lại với nước. \n Bước 2: \n Cho 240gr đá viên, 60ml sữa tươi (hoặc sữa đậu nành), 60ml trà xanh, 60ml sữa đặc vào trong máy xay sinh tố và xay nhuyễn.\n\nTiếp đó, bạn cho vào 3 trái kiwi đã cắt lát và tiếp tục xay nhuyễn để có được hỗn hợp trà sữa kiwi. \n Bước 3: \n Cuối cùng, bạn chia đều trân châu cho 2 ly rồi cho phần trà sữa kiwi đã chuẩn bị vào trong ly."
 	},
 	{
 		"id" : "F06",
-		"name" : "Mực xào ",
+		"name" : "Mực xào xả ớt ",
 		"classify": "Đồ ăn",
-		"image" : "capuchino",
-		"isFavorite" : true,
+		"image" : "muc",
+		"isFavorite" : false,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Mực giòn ngọt vừa chín tới, thơm lừng mùi bột cà ri. Sả chiên vàng giòn pha lẫn khi ăn khiến món ăn càng thêm thú vị. Mực xào sả ớt rất phù hợp cho cả nhà nhâm nhi trong những ngày trời mưa mưa thế này.  ",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Mực ống làm sạch: 500g"
 			},
 			{
-				"name": "Ớt"
+				"name": "Sả non bào mỏng xéo: 5 cây"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Hành lá: 3 cây"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Ớt hiểm, tỏi băm"
+			},
+			{
+				"name": "ĂN KÈM: Cơm trắng"
+			},
+			{
+				"name": "Gia vị: Muối, đường, dầu ăn, bột cà ri"
+			},
+			{
+				"name": "Bột ngọt Bột ngọt AJI-NO-MOTO®"
 			}
-		]
+		],
+		"processing" : "Bước 1: \n Hành lá cắt khúc 2-3cm. Ớt hiểm đập dập.\nMực cắt khoanh ướp với 1/2m muối, 1/2m bột ngọt AJI-NO-MOTO®, 1m đường, 3 trái ớt hiểm đập dập, 1/2m bột cà ri, 1m tỏi băm. \n Bước 2 \n \n Chiên sả bào cho vàng thơm với nhiều dầu, vớt ra. Tiếp tục dùng 1M dầu vừa chiên sả, phi thơm 1M tỏi băm còn lại, trút mực đã ướp vào xào chín với lửa to, mực gần chín cho hành lá vào xóc đều. Tắt lửa. Cho mực ra dĩa, rắc sả chiên lên trên."
 	},
 	{
 		"id" : "F07",
-		"name" : "Cháo tim",
-		"classify": "Đồ ăn",
-		"image" : "capuchino",
-		"isFavorite" : true,
+		"name" : "Smoothies trà sữa dâu",
+		"classify": "Đồ uống",
+		"image" : "dau",
+		"isFavorite" : false,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Smoothie là một loại thức uống pha trộn dạng đặc, sánh sệt, được pha chế từ trái cây hoặc rau củ quả tươi cùng với đá, một ít nước, có thể có thêm các chất làm ngọt hoặc không trong máy xay sinh tố xay đến nhuyễn mịn… Một số công thức smoothie sẽ có thêm đá xay, nước ép trái cây để lạnh, mật ong, siro, các sản phẩm từ sữa, sữa chua, kem tươi hoặc các thành phần để lạnh khác. Thành phẩm smoothie thường mang màu sắc bắt mắt, cho cảm giác uống mát lạnh nhưng không tê buốt như đồ uống kèm đá viên, vị ngọt thanh của nguyên liệu tự nhiên nên được nhiều thực khách yêu thích lựa chọn.",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Blendy trà sữa dâu 4 gói"
 			},
 			{
-				"name": "Ớt"
+				"name": "Sữa tươi không đường 120g"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Kem sữa tươi 100ml (lấy 50ml đánh bông, trang trí trên miệng ly)"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Dâu tây 8 -12 quả"
+			},
+			{
+				"name": "Đá viên 80g"
+			},
+			{
+				"name": "RAU NÊM: Rau húng lủi"
+			},
+			{
+				"name": "Trà Sữa Dâu Blendy"
 			}
-		]
+		],
+		"processing": "Bước 1: \n Pha Blendy: Khuấy tan 4 gói Blendy với 50g nước nóng, sau đó để nguội. \n Dâu tây: ngâm rửa sạch, 8-9 quả để riêng, 3 quả còn lại: 1 cắt lát, 2 quả để trang trí trên thành ly. \n Bước 2: \n Xay smoothies: Cho vào máy xay sinh tố 5 quả dâu, hỗn hợp Blendy, sữa tươi, kem sữa, đá viên, xay nhuyễn mịn. \n Bước 3: \n Đổ smoothies ra ly, trang trí thêm dâu tây và lá húng lủi, uống lạnh."
 	},
 	{
 		"id" : "F08",
-		"name" : "Cháo gà",
+		"name" : "Salad mực phổ tai",
 		"classify": "Đồ ăn",
-		"image" : "capuchino",
-		"isFavorite" : true,
+		"image" : "salat",
+		"isFavorite" : false,
 		"time" : "30 phút",
-		"description" : "Món gà nướng phô mai đậm đà, mềm tan trong miệng, kết hợp với một chút cay nồng của tiêu và ớt chính là món ăn hoàn hảo để đón gió mùa về.",
+		"description" : "Miếng mực áp chảo xem xém, săn chắc, thơm lừng mùi sa tế quyện với xốt trộn beo béo, chua nhẹ. Phổ tai và rau củ giòn giòn tươi mát, ăn tới đâu là bừng tỉnh tới đó. Nhanh tay vào bếp thử ngay công thức thú vị đẩy lùi cái nóng mùa hè nào!",
 		"material ": [
 			{
-				"name": "Gà"
+				"name": "Mực lá 200g"
 			},
 			{
-				"name": "Ớt"
+				"name": "Phổ tai khô 30g"
 			},
 			{
-				"name": "Tỏi"
+				"name": "Dưa leo 2 trái"
 			},
 			{
-				"name": "Phô Mai"
+				"name": "Cần tây 50g"
+			},
+			{
+				"name": "Cà rốt 50g"
+			},
+			{
+				"name": "Mè trắng rang thơm. 1M"
+			},
+			{
+				"name": "Ớt sừng cắt sợi 1 Trái"
+			},
+			{
+				"name": "RAU NÊM: húng lủi"
+			},
+			{
+				"name": "Gia vị: Nước hành tỏi, đường tiêu, tương ớt sa tế, bột ngọt, giấm, nước tương"
+			},
+			{
+				"name": "Hạt nêm Hạt nêm Aji-ngon Gà"
+			},
+			{
+				"name": "Xốt Mayonnaise Xốt Mayonnaise Aji-mayo® Ngọt Dịu"
 			}
-		]
+		],
+		"processing": "Bước 1: \n Mực lá khứa vảy rồng\nDưa leo (đeo bao tay) bỏ ruột cắt lát xéo, ướp với 1M đường, vắt ráo.\nCần tây cắt sợi vừa ăn\nCà rốt cắt sợi ướp với 1/2m đường, vắt ráo\nPhổ tai cắt rối \n Bước 2: \n Pha xốt ướp mực: Khuấy đều 1m hạt nêm Aji-ngon® Gà, 1/2m bột ngọt AJI-NO-MOTO®, 2M xốt Mayonnaise Aji-Mayo® Ngọt Dịu, 1 ít tiêu, 1M tương ớt sa tế, 1M nước hành tỏi băm. Ướp với hỗn hợp xốt đã pha, để thấm\nÁp chảo mực: Cho một ít dầu ăn vào chảo, cho mực vào áp chảo đến khi mực chín và có màu vàng đẹp mắt. Lấy ra để nguội, lấy ra cắt vát nghiêng dao miếng vừa ăn\nPha xốt: Trộn đều hỗn hợp gồm 2M xốt Mayonnaise Aji-Mayo® Ngọt Dịu, 1M giấm gạo lên men của Ajinomoto, 1M đường. \n Bước 3: \nXếp dưa leo, cà rốt, phổ tai, ớt sừng sợi ra dĩa, trộn với 1/2 phần xốt trước. cho mực lên trên rưới xốt, rắc thêm mè rang. Trang trí húng lủi"
 	}
 ]

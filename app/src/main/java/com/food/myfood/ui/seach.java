@@ -1,12 +1,7 @@
-package com.food.myfood.ui.main.profile;
-
-
+package com.food.myfood.ui;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -17,36 +12,27 @@ import com.food.myfood.model.Food;
 import com.food.myfood.ui.base.BaseMvvmFragment;
 import com.food.myfood.ui.detail_receive.DetailReceiveActivity;
 import com.food.myfood.ui.main.home.FoodAdapter;
-import com.food.myfood.ui.seach;
+import com.food.myfood.ui.main.profile.ProfileFragment;
+import com.food.myfood.ui.main.profile.ProfileViewModel;
 import com.food.myfood.ui.signin.SignInActivity;
 import com.food.myfood.utils.GridSpacingItemDecoration;
 
 import java.util.ArrayList;
 
-
-public class ProfileFragment extends BaseMvvmFragment<FragmentProfileBinding, ProfileViewModel> implements FoodAdapter.FoodAdapterListener {
-
-    public static final String TAG = "ProfileFragment";
+public class seach extends BaseMvvmFragment<FragmentProfileBinding, ProfileViewModel > implements FoodAdapter.FoodAdapterListener {
     private FoodAdapter adapterFood;
-
-    public static ProfileFragment newInstance() {
-        return new ProfileFragment();
-    }
-
-    @Override
     public int getLayoutId() {
-        return R.layout.fragment_profile;
+        return R.layout.seach;
     }
-
-    @Override
     protected Class<? extends ViewModel> getViewModelType() {
         return ProfileViewModel.class;
     }
-
+    public static seach newInstance() {
+        return new seach();
+    }
     @Override
     public void onViewReady() {
         setupRecyclerview();
-
     }
 
     private void setupRecyclerview() {
@@ -66,7 +52,4 @@ public class ProfileFragment extends BaseMvvmFragment<FragmentProfileBinding, Pr
         intent.putExtras(bundle);
         startActivity(intent);
     }
-
-
-
 }

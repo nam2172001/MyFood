@@ -13,7 +13,7 @@ public class Food implements Serializable {
     private String id;
     @SerializedName("name")
     @Expose
-    private String name;
+    public String name;
     @SerializedName("classify")
     @Expose
     private String classify;
@@ -32,6 +32,9 @@ public class Food implements Serializable {
     @SerializedName("material ")
     @Expose
     private List<Recipe> material = null;
+    @SerializedName("processing")
+    @Expose
+    private String processing;
 
     public String getId() {
         return id;
@@ -95,5 +98,13 @@ public class Food implements Serializable {
 
     public void setMaterial(List<Recipe> material) {
         this.material = material;
+    }
+
+    public String getProcessing() {
+        return processing;
+    }
+
+    public void setProcessing(String processing) {
+        this.processing = processing;
     }
 }

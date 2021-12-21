@@ -43,10 +43,8 @@ public class DetailReceiveActivity extends BaseMvvmActivity<ActivityDetailReceiv
         Bundle bundle = intent.getExtras();
         food = (Food) bundle.getSerializable("data");
         getViewModel().setFood(food);
-
         setTransParentColor();
         setupRecyclerview();
-
         getViewDataBinding().viewBack.setOnClickListener(view -> {
             finish();
         });
